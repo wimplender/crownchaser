@@ -1,0 +1,29 @@
+# Ignore Python artifacts
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore environment files
+.env
+.venv/
+venv/
+Pipfile.lock
+poetry.lock
+
+# Ignore Streamlit secrets (not meant for git)
+.streamlit/secrets.toml
+
+# Ignore local caches (your app)
+kom_cache.json
+explore_cache.json
+location_cache.json
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+\backup
