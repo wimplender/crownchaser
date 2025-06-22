@@ -16,11 +16,12 @@ if os.path.exists(".env"):
     load_dotenv()
     CLIENT_ID = os.getenv("STRAVA_CLIENT_ID")
     CLIENT_SECRET = os.getenv("STRAVA_CLIENT_SECRET")
+    REDIRECT_URI = "http://127.0.0.1:8501"
 else:
     CLIENT_ID = st.secrets["STRAVA_CLIENT_ID"]
     CLIENT_SECRET = st.secrets["STRAVA_CLIENT_SECRET"]
+    REDIRECT_URI = "https://crownchaser.streamlit.app"
         
-REDIRECT_URI = "http://127.0.0.1:8501"
 
 st.set_page_config(page_title="CrownChaser", layout="centered")
 st.title("🚴 CrownChaser")
