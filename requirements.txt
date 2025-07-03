@@ -1,42 +1,52 @@
-altair==5.5.0
-attrs==25.3.0
-blinker==1.9.0
-cachetools==5.5.2
-certifi==2025.4.26
-charset-normalizer==3.4.2
-click==8.2.1
-colorama==0.4.6
-geographiclib==2.0
+# Core
+streamlit==1.45.1
+requests==2.32.3
+python-dotenv==1.1.0
+
+# Data & computation
+pandas==2.3.0
+numpy==2.3.0
+tabulate==0.9.0
+
+# Geolocation
 geopy==2.4.1
-gitdb==4.0.12
-GitPython==3.1.44
-idna==3.10
-Jinja2==3.1.6
+geographiclib==2.0
+
+# Plotting & UI
+pydeck==0.9.1
+altair==5.5.0
+
+# Utilities
+python-dateutil==2.9.0.post0
+pytz==2025.2
+tzdata==2025.2
+typing_extensions==4.14.0
+packaging==24.2
+
+# JSON/schema
 jsonschema==4.24.0
 jsonschema-specifications==2025.4.1
-MarkupSafe==3.0.2
-narwhals==1.41.1
-numpy==2.3.0
-packaging==24.2
-pandas==2.3.0
-pillow==11.2.1
-protobuf==6.31.1
-pyarrow==20.0.0
-pydeck==0.9.1
-python-dateutil==2.9.0.post0
-python-dotenv==1.1.0
-pytz==2025.2
 referencing==0.36.2
-requests==2.32.3
 rpds-py==0.25.1
-six==1.17.0
-smmap==5.0.2
-streamlit==1.45.1
-tabulate==0.9.0
-tenacity==9.1.2
-toml==0.10.2
-tornado==6.5.1
-typing_extensions==4.14.0
-tzdata==2025.2
-urllib3==2.4.0
+
+# Streamlit internals/dependencies
 watchdog==6.0.0
+protobuf==6.31.1
+tornado==6.5.1
+blinker==1.9.0
+click==8.2.1
+Jinja2==3.1.6
+MarkupSafe==3.0.2
+attrs==25.3.0
+tenacity==9.1.2
+
+# Networking
+urllib3==2.4.0
+certifi==2025.4.26
+charset-normalizer==3.4.2
+idna==3.10
+
+# Git integration (if needed later)
+GitPython==3.1.44
+gitdb==4.0.12
+smmap==5.0.2
